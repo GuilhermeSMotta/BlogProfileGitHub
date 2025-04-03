@@ -51,7 +51,7 @@ export function Summary() {
       <section>
         <SummaryHeader>
           <h1>{user?.name}</h1>
-          <a href={user?.} target="_blank">
+          <a href={user?.html_url} target="_blank">
             GITHUB
             <ArrowUpRight size={12} />
           </a>
